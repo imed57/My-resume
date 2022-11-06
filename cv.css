@@ -1,0 +1,337 @@
+html {
+    background: linear-gradient(#2E294E, #493843);
+}
+.fit-picture {
+    width: 150px;
+    height: 200px;
+    border: 2px solid #FFD400;
+}
+
+button {
+    width: 500px;
+    height: 150px;
+    margin-left: 30%;
+    margin-top: 0%;
+    top: 20px;
+    position: absolute;
+    appearance: none;
+    border: 5px solid #AA968A;
+    background-color: #ACEDFF;
+    color: white;
+    font-size: 13px;
+}
+button:hover::before {
+    cursor: pointer;
+    color: #AA968A;
+}
+button:hover:active {
+    color: #C9F0FF;
+}
+
+
+button::before {
+    content: "My Profile";
+    text-decoration: underline black;
+    font-size: 25px;
+    background-color: none;
+    color: #2E294E;
+}
+
+button::after {
+    content: none;
+}
+
+.textprofile {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 20px;
+    color:#2E294E;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items:stretch;
+    padding: 0px 250px;
+    
+}
+
+.main .boxcomp {
+    flex:1 0 295px;
+    width: 170vh;
+    background:#AA968A;
+    margin-bottom: 7px;
+    border: 2px solid #FFD400;
+    animation-name: example;
+    animation-duration: 8s;
+    font-size: 20px;
+    font-style: italic;
+}
+.boxcomp:hover {
+    background-color: #C9F0FF;
+}
+@keyframes example {
+    from {background-color: black}
+    to {background-color: #AA968A}
+    from {margin-left: 100%; width: 130%;}
+    to {margin-left: 0%; width: 130%;}
+}
+
+.boxexp {
+    flex:1 0 460px;
+    width: 170vh;
+    background: #AA968A;
+    margin-top: 5px;
+    border: 2px solid #FFD400;
+    animation-name: example1;
+    animation-duration: 8s;
+    font-size: 20px;
+    font-style: italic;
+}
+@keyframes example1 {
+    from {background-color: black;}
+    to {background-color: #AA968A}
+    from {margin-left: 100%; width: 130%;}
+    to {margin-left: 0%; width: 130%;}
+
+}
+.boxexp:hover {
+    background-color: #C9F0FF;
+}
+
+
+.main .boxcomp .compet {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1%;
+    text-decoration: underline black;
+}
+.main .boxexp .exp {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1%;
+    text-decoration: underline black;
+
+}
+
+.liens {
+    position: absolute;
+    top: 220px;
+    height: 350px;
+    width: 200px;
+    left: 8px;
+    border: 2px solid #FFD400;
+}
+.liens:hover {
+    color: #AA968A;
+}
+
+.leftlist {
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.rightlist {
+    margin-left: 19%;
+    margin-top: -262px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.leftlist2 {
+    margin-left: 50%;
+    margin-top: -20%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.rightlist2 {
+    margin-left: 70%;
+    margin-top: -133px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.progress1 {
+    background: #2E294E;
+    border-radius: 13px;
+    height: 10px;
+    width: 200px;
+    padding: 3px;
+    animation-name: examp1;
+    animation-duration: 5s;
+}
+@keyframes examp1 {
+    from {background-color: black;}
+    to {background-color: #2E294E}
+}
+.progress1:after {
+    content: '';
+    display: block;
+    background: #AA968A;
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+    animation-name: exam;
+    animation-duration: 3s;
+}
+@keyframes exam {
+    from {background-color: black;}
+    to {background-color: #AA968A}
+}
+.progress2 {
+    background: #2E294E;
+    border-radius: 13px;
+    height: 10px;
+    width: 200px;
+    padding: 3px;
+    animation-name: examp2;
+    animation-duration: 5s;
+}
+@keyframes examp2 {
+    from {background-color: black;}
+    to {background-color: #2E294E}
+}
+
+.progress2:after {
+    content: '';
+    display: block;
+    background: #AA968A;
+    width: 70%;
+    height: 100%;
+    border-radius: 9px;
+    animation-name: exam2;
+    animation-duration: 3s;
+}
+@keyframes exam2 {
+    from {background-color: black;}
+    to {background-color: #AA968A}
+}
+
+.progress3 {
+    background: #2E294E;
+    border-radius: 13px;
+    height: 10px;
+    width: 200px;
+    padding: 3px;
+    animation-name: examp3;
+    animation-duration: 5s;
+}
+@keyframes examp3 {
+    from {background-color: black;}
+    to {background-color: #2E294E}
+}
+
+.progress3:after {
+    content: '';
+    display: block;
+    background: #AA968A;
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+    animation-name: exam3;
+    animation-duration: 3s;
+}
+@keyframes exam3 {
+    from {background-color: black;}
+    to {background-color: #AA968A}
+}
+.progress4 {
+    background: #2E294E;
+    border-radius: 13px;
+    height: 10px;
+    width: 200px;
+    padding: 3px;
+    animation-name: examp4;
+    animation-duration: 5s;
+}
+@keyframes examp4 {
+    from {background-color: black;}
+    to {background-color: #2E294E}
+}
+
+.progress4:after {
+    content: '';
+    display: block;
+    background: #AA968A;
+    width: 80%;
+    height: 100%;
+    border-radius: 9px;
+    animation-name: exam4;
+    animation-duration: 3s;
+}
+@keyframes exam4 {
+    from {background-color: black;}
+    to {background-color: #AA968A}
+}
+.progress5 {
+    background: #2E294E;
+    border-radius: 13px;
+    height: 10px;
+    width: 200px;
+    padding: 3px;
+    animation-name: examp5;
+    animation-duration: 5s;
+}
+@keyframes examp5 {
+    from {background-color: black;}
+    to {background-color: #2E294E}
+}
+
+.progress5:after {
+    content: '';
+    display: block;
+    background: #AA968A;
+    width: 80%;
+    height: 100%;
+    border-radius: 9px;
+    animation-name: exam5;
+    animation-duration: 3s;
+}
+@keyframes exam5 {
+    from {background-color: black;}
+    to {background-color: #AA968A}
+}
+.taff {
+    display: absolute;
+    flex-direction: column;
+    gap: 1px;
+    line-height: 35px;
+}
+.dates {
+    display:block;
+    flex-direction: column;
+    line-height: 70px;
+    margin-top: -398px;
+    font-style: normal;
+    color: azure;
+    line-height: 70px;
+    font-size: 20px;
+     
+}
+
+.ie:link:link {
+    line-height: 28vh;
+    font-size: 25px;
+    color: #FFD400;
+}
+.ie:visited {
+    line-height: 28vh;
+    font-size: 25px;
+    color: rosybrown;
+}
+.ei:link {
+    line-height: 28vh;
+    font-size: 25px;
+    color: #FFD400;
+}
+.ei:visited {
+    line-height: 28vh;
+    font-size: 25px;
+    color: rosybrown;
+}
