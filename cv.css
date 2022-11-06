@@ -183,7 +183,7 @@ button::after {
     content: '';
     display: block;
     background: #AA968A;
-    width: 60%;
+    width: 50%;
     height: 100%;
     border-radius: 9px;
     animation-name: exam;
@@ -211,7 +211,7 @@ button::after {
     content: '';
     display: block;
     background: #AA968A;
-    width: 70%;
+    width: 80%;
     height: 100%;
     border-radius: 9px;
     animation-name: exam2;
@@ -240,7 +240,7 @@ button::after {
     content: '';
     display: block;
     background: #AA968A;
-    width: 50%;
+    width: 65%;
     height: 100%;
     border-radius: 9px;
     animation-name: exam3;
@@ -268,7 +268,7 @@ button::after {
     content: '';
     display: block;
     background: #AA968A;
-    width: 80%;
+    width: 75%;
     height: 100%;
     border-radius: 9px;
     animation-name: exam4;
