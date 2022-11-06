@@ -120,12 +120,21 @@ button::after {
     position: absolute;
     top: 220px;
     height: 350px;
-    width: 200px;
+    width: 150px;
     left: 8px;
     border: 2px solid #FFD400;
 }
 .liens:hover {
     color: #AA968A;
+}
+
+.imedliens {
+    margin-top: 17%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+    row-gap: 17px;
+
 }
 
 .leftlist {
